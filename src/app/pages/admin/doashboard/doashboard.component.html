@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Mô tả</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <td><img [src]="product?.images" alt="{{ product?.title }}" class="img-fluid"></td>
+                <td>{{ product?.title }}</td>
+                <td>{{ product?.price | currency : 'USD' : 'symbol' : '1.2-2' }}</td>
+                <td>{{ product?.description }}</td>
+                <td><button class="btn btn-primary" [routerLink]="['/admin/edit', product.id]" >Sửa</button></td>
+                <td><button class="btn btn-danger" (click)="deleteSubmit(product.id)">Xóa</button></td> <!-- Sửa truyền id của sản phẩm -->
+            </tr>
+        </tbody>
+    </table>
+</div>

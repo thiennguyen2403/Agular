@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .header-admin {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    display: flex;
+    height: calc(100vh - 65px); /* Adjust height according to header height */
+  }
+  
+  .side-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    width: 25%;
+    transition: all 0.3s ease;
+  }
+  
+  .side-bar li {
+    margin: 0;
+  }
+  
+  .side-bar a {
+    display: block;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .side-bar a:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  .row {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .col-3 {
+    flex: 0 0 25%;
+  }
+  
+  .col-9 {
+    flex: 0 0 75%;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+  }
+  
+  .router-outlet {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Adding hover effect for router-outlet */
+  .router-outlet:hover {
+    background-color: #e9e9e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Smooth transition for all elements */
+  * {
+    transition: all 0.3s ease;
+  }
+  

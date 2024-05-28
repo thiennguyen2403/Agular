@@ -1,0 +1,235 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "images": "https://bizweb.dktcdn.net/thumb/1024x1024/100/390/808/products/tao-fujji-ae0e548e6dad48938bd3b4e860850ed9.jpg?v=1593677607867",
+      "title": "Táo Fuji",
+      "price": 45,
+      "description": "Táo Fuji giòn, ngọt, nhập khẩu từ Nhật Bản ok."
+    },
+    {
+      "id": 2,
+      "images": "https://image-handler-prod.s3-ap-southeast-1.amazonaws.com/supplier/654/PRODUCT_IMAGE/89fc825b-3e45-4771-9cb8-96a4725d657b.png",
+      "title": "Cam Sành Quảng Châu",
+      "price": 30,
+      "description": "Cam Sành tươi ngon, nhiều nước, chứa nhiều vitamin C."
+    },
+    {
+      "id": 3,
+      "images": "https://redpineinternational.vn/wp-content/uploads/2021/08/Chuoi-cau-red-pine-fresh-01-01.jpg",
+      "title": "Chuối Cau",
+      "price": 20,
+      "description": "Chuối Cau vàng ươm, thơm ngọt, giàu dinh dưỡng."
+    },
+    {
+      "id": 4,
+      "images": "https://media.loveitopcdn.com/1254/thumb/nho-den-khong-hat-my-nhobonmuacom-2.jpg",
+      "title": "Nho Mỹ",
+      "price": 60,
+      "description": "Nho Mỹ không hạt, ngọt thanh, giàu chất chống oxy hóa."
+    },
+    {
+      "id": 5,
+      "images": "https://product.hstatic.net/1000282430/product/seedless-watermelon-around-2.5kg-whole-fruit_23a860613aa94413aca16b9d766f6291.jpg",
+      "title": "Dưa Hấu",
+      "price": 15,
+      "description": "Dưa Hấu đỏ ngọt, nhiều nước, giải nhiệt mùa hè."
+    },
+    {
+      "id": 6,
+      "images": "https://i.imgur.com/vrpSLz7.jpg",
+      "title": "Xoài Cát Hòa Lộc",
+      "price": 50,
+      "description": "Xoài Cát Hòa Lộc thơm ngon, vị ngọt đậm đà."
+    },
+    {
+      "id": 7,
+      "images": "https://www.vinmec.com/s3-images/20220620_105112_848964_tac-dung-cua-qua-thom.max-800x800.jpg",
+      "title": "Dứa",
+      "price": 20,
+      "description": "Dứa tươi ngon, ngọt dịu, giàu vitamin C."
+    },
+    {
+      "id": 8,
+      "images": "https://product.hstatic.net/1000282430/product/du-du-do_a925cf1dca944fa5aea5fafa75c85656.jpg",
+      "title": "Đu Đủ",
+      "price": 18,
+      "description": "Đu Đủ chín mềm, thơm ngọt, giàu chất xơ và vitamin."
+    },
+    {
+      "id": 9,
+      "images": "https://dalafood.vn/wp-content/uploads/2022/06/trai-cay-giup-ha-duong-huyet-6.jpg",
+      "title": "Dâu Tây",
+      "price": 70,
+      "description": "Dâu Tây Đà Lạt tươi ngon, giàu chất chống oxy hóa."
+    },
+    {
+      "id": 10,
+      "images": "https://thanhnien.mediacdn.vn/Uploaded/ngocquy/2022_11_08/1-bo-shutterstock-817.jpg",
+      "title": "Bơ",
+      "price": 50,
+      "description": "Bơ sáp dẻo, thơm ngon, giàu chất béo có lợi."
+    },
+    {
+      "id": 11,
+      "images": "https://thanhnien.mediacdn.vn/Uploaded/minhnguyet/2022_04_24/qua-viet-quoc-781.jpg",
+      "title": "Việt Quất",
+      "price": 85,
+      "description": "Việt Quất tươi, giàu chất chống oxy hóa và vitamin."
+    },
+    {
+      "id": 12,
+      "images": "https://vcdn1-suckhoe.vnecdn.net/2019/09/03/benefitsoflime-1567496996-9070-1567497249.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=LpPndYyqCShHL-Scv4JrJw",
+      "title": "Chanh",
+      "price": 15,
+      "description": "Chanh tươi, giàu vitamin C, giúp tăng cường sức đề kháng."
+    },
+    {
+      "id": 13,
+      "images": "https://suckhoedoisong.qltns.mediacdn.vn/Images/hohuong/2021/06/30/qua%20dao.jpg",
+      "title": "Đào",
+      "price": 65,
+      "description": "Đào giòn ngọt, thơm ngon, giàu vitamin và chất xơ."
+    },
+    {
+      "id": 14,
+      "images": "https://cdn.britannica.com/45/126445-050-4C0FA9F6/Kiwi-fruit.jpg",
+      "title": "Kiwi",
+      "price": 90,
+      "description": "Kiwi tươi, giàu vitamin C và chất chống oxy hóa."
+    },
+    {
+      "id": 15,
+      "images": "https://vcdn-giadinh.vnecdn.net/2015/03/10/two-pears-2405-1425959375.jpg",
+      "title": "Lê",
+      "price": 35,
+      "description": "Lê ngọt, giòn, tươi ngon và bổ dưỡng."
+    },
+    {
+      "id": 16,
+      "images": "https://demoweb.company/hoaqua/wp-content/uploads/2020/11/man.jpg",
+      "title": "Mận",
+      "price": 30,
+      "description": "Mận tươi ngon, vị chua ngọt, giàu vitamin."
+    },
+    {
+      "id": 17,
+      "images": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Italienische_S%C3%BC%C3%9Fkirschen.JPG",
+      "title": "Anh Đào",
+      "price": 12,
+      "description": "Anh Đào tươi, vị ngọt thanh, giàu chất chống oxy hóa."
+    },
+    {
+      "id": 18,
+      "images": "https://trungxuong.com/wp-content/uploads/2021/06/buoi-da-xanh-1.jpg",
+      "title": "Bưởi",
+      "price": 40,
+      "description": "Bưởi tươi ngon, nhiều nước, giàu vitamin C."
+    },
+    {
+      "id": 19,
+      "images": "https://sangiaodich.tiengiang.gov.vn/image/800/800/AE73P5NshBcYbLFJBwLE3le8fB5E1qrlYxvqF4DN.jpg",
+      "title": "Dưa Lưới",
+      "price": 50,
+      "description": "Dưa Lưới ngọt mát, giải khát, giàu dinh dưỡng."
+    },
+    {
+      "id": 20,
+      "images": "https://thanhnien.mediacdn.vn/Uploaded/minhnguyet/2016_02_04/quakuu_YUMP.jpg?width=500",
+      "title": "Lựu",
+      "price": 55,
+      "description": "Lựu đỏ tươi, nhiều hạt, giàu chất chống oxy hóa."
+    },
+    {
+      "id": 21,
+      "images": "https://dacsandalat.com.vn/wp-content/uploads/2015/11/qua-hong.jpg",
+      "title": "Hồng",
+      "price": 45,
+      "description": "Hồng giòn ngọt, tươi ngon, giàu vitamin."
+    },
+    {
+      "id": 22,
+      "images": "https://tiengiang.gov.vn/documents/1058688/11235160/DuaXiemLuc.jpg/dba96af0-1da1-451c-98f2-6e1de34774c2?t=1547782251607",
+      "title": "Dừa",
+      "price": 30,
+      "description": "Dừa tươi, nước ngọt, giải nhiệt mùa hè."
+    },
+    {
+      "id": 23,
+      "images": "https://vinmec-prod.s3.amazonaws.com/images/20200724_094324_619742_mam-xoi-2.max-800x800.jpg",
+      "title": "Mâm Xôi",
+      "price": 95,
+      "description": "Mâm Xôi đỏ, tươi ngon, giàu chất chống oxy hóa."
+    },
+    {
+      "id": 24,
+      "images": "https://traicaynhapkhausach.vn/upload/sanpham/large/mam-xoi-den-uc-black-raspberry-125g-019-29-0.jpg",
+      "title": "Mâm Xôi Đen",
+      "price": 95,
+      "description": "Mâm Xôi Đen, giàu chất xơ và chất chống oxy hóa."
+    },
+    {
+      "id": 25,
+      "images": "https://www.lottemart.vn/media/catalog/product/cache/0x0/2/0/2038120000004-1.jpg.webp",
+      "title": "Chanh Leo",
+      "price": 20,
+      "description": "Chanh Leo tươi ngon, giàu vitamin C và chất xơ."
+    },
+    {
+      "id": 26,
+      "images": "https://medlatec.vn/ImagePath/images/20230425/20230425_Qua-sung-co-nhieu-chat-dinh-duong-tot-cho-suc-khoe.jpg",
+      "title": "Sung",
+      "price": 60,
+      "description": "Sung tươi ngon, giàu chất xơ và dinh dưỡng."
+    },
+    {
+      "id": 27,
+      "images": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/loi_ich_cua_sau_rieng_doi_voi_suc_khoe_la_gi_an_sau_rieng_co_nong_khong_1_5074a6a783.jpg",
+      "title": "Sầu Riêng",
+      "price": 12,
+      "description": "Sầu Riêng chín mềm, thơm ngon, giàu dinh dưỡng."
+    },
+    {
+      "id": 28,
+      "images": "https://vaithieu.net/wp-content/uploads/2018/01/vai-thieu-tuoi-1.png",
+      "title": "Vải Thiều",
+      "price": 70,
+      "description": "Vải Thiều ngọt, nhiều nước, giàu vitamin."
+    },
+    {
+      "id": 29,
+      "images": "https://static-images.vnncdn.net/files/publish/2023/5/26/mang-cut-co-tac-dung-gi-183.png",
+      "title": "Măng Cụt",
+      "price": 75,
+      "description": "Măng Cụt tươi ngon, vị chua ngọt, giàu chất xơ."
+    },
+    {
+      "id": 30,
+      "images": "https://cdn.tuoitre.vn/471584752817336320/2023/7/5/qua-mit-16885325231681097470133.jpg",
+      "title": "Mít",
+      "price": 35,
+      "description": "Mít tươi, thơm ngọt, giàu chất dinh dưỡng."
+    },
+    {
+      "id": 31,
+      "images": "https://www.vinmec.com/s3-images/20210419_031329_240031_qua-thanh-long.max-800x800.jpg",
+      "title": "Thanh Long",
+      "price": 25,
+      "description": "Thanh Long đỏ ngọt, giải khát, giàu chất xơ."
+    },
+    {
+      "title": "thiennguyen",
+      "price": 500,
+      "description": "mota",
+      "id": 32,
+      "images": "https://cdn.tuoitre.vn/471584752817336320/2023/7/5/qua-mit-16885325231681097470133.jpg"
+    },
+    {
+      "title": "okok",
+      "price": 5000,
+      "description": "mota",
+      "id": 33,
+      "images": "fefef"
+    }
+  ]
+}

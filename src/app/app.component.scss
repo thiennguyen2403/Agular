@@ -1,0 +1,14 @@
+.infor-card {
+  width: 600px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  padding: 12px;
+  h2 {
+    color: red;
+  }
+  p {
+    color: blue;
+  }
+}

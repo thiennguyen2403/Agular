@@ -1,0 +1,19 @@
+<header class="header-admin">
+    <h1>Hello Admin</h1>
+  </header>
+  
+  <div class="content">
+    <div class="row h-100">
+      <ul class="col-3 side-bar">
+        <li><a [routerLink]="['/admin']">Dashboard</a></li>
+        <li><a [routerLink]="['/admin/product-add']">Add new Product</a></li>
+        <li><a [routerLink]="['admin/list-users']">List Users</a></li>
+
+      </ul>
+      <div class="col-9">
+        <router-outlet>
+         
+        </router-outlet>
+      </div>
+    </div>
+  </div>

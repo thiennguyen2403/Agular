@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <h2>Chỉnh Sửa Sản Phẩm</h2>
+    <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Tên sản phẩm</label>
+        <input type="text" id="title" formControlName="title" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="price">Giá</label>
+        <input type="number" id="price" formControlName="price" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="description">Mô tả</label>
+        <textarea id="description" formControlName="description" class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="images">Hình ảnh</label>
+        <input type="text" id="images" formControlName="images" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-success">Lưu</button>
+    </form>
+  </div>
+  
