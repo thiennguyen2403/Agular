@@ -231,5 +231,17 @@
       "id": 33,
       "images": "fefef"
     }
+  ],
+  "users": [
+    {
+      "email": "thien12345@gmail.com",
+      "password": "$2a$10$Mn1q9CAhN94JRnJH6XemNeORF4qgNT/27jl.QpI8UWXGresymZrWe",
+      "id": 1
+    },
+    {
+      "email": "thien1234@gmail.com",
+      "password": "$2a$10$0Ungv4OC/vGSQ5Cxyd9RUOO1P5VsguOvVZQY2aS60k1uCC7s/bvoy",
+      "id": 2
+    }
   ]
 }

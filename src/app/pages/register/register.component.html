@@ -1,19 +1,56 @@
-<div class="registration-container">
-    <h2>Register</h2>
-    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
-      <div class="input-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" formControlName="username">
-      </div>
-      <div class="input-group">
+<div class="register-container">
+  <form (ngSubmit)="handleSubmit()" [formGroup]="authForm">
+      <h1>Register</h1>
+      <div class="form-group mb-3">
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" formControlName="email">
+        <input
+          class="form-control"
+          type="email"
+          placeholder="email"
+          id="email"
+          formControlName="email"
+        />
+        <div
+          class="text-danger"
+          *ngIf="authForm.get('email')?.touched && authForm.get('email')?.errors"
+        >
+          <div *ngIf="authForm.get('email')?.errors?.['required']">
+            Email bắt buộc phải nhập
+          </div>
+          <div *ngIf="authForm.get('email')?.errors?.['email']">
+            Email Không đúng định dạng 
+          </div>
+
+        </div>
       </div>
-      <div class="input-group">
+    
+      <div class="form-group mb-3">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" formControlName="password">
+        <input
+          class="form-control"
+          type="password"
+          placeholder="password"
+          id="password"
+          formControlName="password"
+        />
+        <div
+          class="text-danger"
+          *ngIf="
+            authForm.get('password')?.touched && authForm.get('password')?.errors
+          "
+        >
+          <div *ngIf="authForm.get('password')?.errors?.['required']">
+            password bắt buộc phải nhập
+          </div>
+          <div
+            *ngIf="authForm.get('password')?.errors?.['min'] && authForm.get('password')?.errors?.['min']"
+          >
+            Password tối thiểu 6 kí tự.
+          </div>
+        </div>
       </div>
-      <button type="submit" [disabled]="registrationForm.invalid">Register</button>
+      <div class="form-group mb-3">
+        <button class="btn btn-primary w-100" type="submit">Submit</button>
+      </div>
     </form>
-  </div>
-  
+</div>
